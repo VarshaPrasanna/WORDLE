@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Varshaprasanna.github.io/WORDLE",
+  "homepage": "http://Varshaprasanna.github.io/wordle",
   "name": "wordle",
   "version": "0.1.0",
   "private": true,
@@ -23,14 +23,11 @@
   },
   "scripts": {
     
-    "server": "json-server --watch ./data/db.json --port 8000",
-  
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
